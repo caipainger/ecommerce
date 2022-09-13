@@ -100,8 +100,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "ecommerce:build:production",
+            "firebaseProject": "template-ecommerce-5f073",
+            "firebaseHostingSite": "template-ecommerce-5f073"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b81cb573-1ffd-458e-b7a4-0e6a64713a03"
   }
 }

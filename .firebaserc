@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "template-ecommerce-5f073"
+  },
+  "targets": {
+    "template-ecommerce-5f073": {
+      "hosting": {
+        "ecommerce": [
+          "template-ecommerce-5f073"
+        ]
+      }
+    }
+  }
+}
