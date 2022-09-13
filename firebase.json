@@ -5,7 +5,9 @@
   },
   "hosting": [
     {
-      "public": "public",
+      
+      "target": "ecommerce",
+      "public": "dist/ecommerce",
       "ignore": [
         "firebase.json",
         "**/.*",
